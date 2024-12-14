@@ -1,0 +1,169 @@
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: #f6f2ec;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#page
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, nav a
+{
+    font-family: 'Croissant One', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    border-bottom:3px solid #4d4437;
+	margin-bottom:20px;
+}
+
+#titre_page
+{
+    display: inline-block;
+}
+
+header h1
+{
+    font-family: 'Rambla', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+	display: inline-block;
+    margin-bottom: 0px;
+}
+
+
+header h2
+{
+    font-family: 'Croissant One', sans-serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+nav
+{
+    display: inline-block;
+    width: 890px;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+/* Corps */
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    background-color: #4d4437;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+	margin-top:20px;
+}
+
+
+#photo
+{
+    text-align: center;
+}
+
+#photo img
+{
+    border: 1px solid #181818;
+}
+
+
+/* Footer */
+
+footer
+{
+    padding-top: 25px;
+	font-size:0.6em;
+	color:#897962;
+	text-align:center;
+}
+
+footer a, footer a:link, footer a:visited
+{
+	color:#897962;
+	text-decoration:none;
+}
+
+
+/* Correctifs pour les vieilles versions d'Internet Explorer */
+
+/* Pour activer un positionnement type inline-block sur les vieilles versions d'IE */
+
+.old_ie #titre_page, .old_ie #logo, .old_ie header h1, .old_ie nav, .old_ie nav li, .old_ie article, .old_ie aside
+{
+    display: inline;
+}
+
+/* Quelques ajustements pour les vieilles versions d'IE pour la maquette CV*/
+
+.old_ie section h1, .ie8 section h1
+{
+    font-size: 1.1em;
+}
+
+
